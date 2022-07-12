@@ -1,5 +1,4 @@
 import logo from './Dragon9.png';
-import openSeaLight from './OpenSea_Full_Logo_light.svg';
 import openSeaDark from './OpenSea_Full_Logo_dark.svg';
 import './App.css';
 import {
@@ -66,7 +65,7 @@ function App() {
             
             <div class="col-1">              
             <a href="https://opensea.io/collection/diplomaticdragon">
-              <img src={openSeaDark} class="opensea"/>                
+              <img src={openSeaDark} class="opensea" alt="logo"/>                
             </a>
           </div>
           <div class="col-4"/>              
