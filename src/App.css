@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 60vmin;
+  height: 50vmin;
   pointer-events: none;
   border-radius: 25px;
 }
@@ -36,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.twitterlocal{
+   margin-right:20px;
+   color:black;
+}
+
+.instagramlocal{
+   color:black;
+}
+
+.opensea {
+  height: 5vmin;
+}
+
+.dragonStory{
+  font-family: 'Barlow', sans-serif;
+}
+
+.comingSoon{
+  font-size: calc(15px + 2vmin);  
+}
+
+.diplomaticDragonHeading{
+  font-family: 'Barlow', sans-serif;
+  font-size: calc(18px + 4vmin); 
+  color:Black; 
+}
+
+.socialLine{
+  font-family: 'Barlow', sans-serif;
+  font-size: calc(10px + 2vmin);  
+}
+
+.dragonStoryLine{
+  font-size: calc(15px + 2vmin);    
 }
