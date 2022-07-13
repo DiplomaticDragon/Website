@@ -2,22 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 50vmin;
-  pointer-events: none;
-  border-radius: 25px;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #e39b94;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -29,47 +17,15 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.w-full{
+  width:100%;
 }
 
-.twitterlocal{
-   margin-right:20px;
-   color:black;
+.text-inherit{
+  text-decoration: inherit;
 }
 
-.instagramlocal{
-   color:black;
-}
-
-.opensea {
-  height: 5vmin;
-}
-
-.dragonStory{
-  font-family: 'Barlow', sans-serif;
-}
-
-.comingSoon{
-  font-size: calc(15px + 2vmin);  
-}
-
-.diplomaticDragonHeading{
-  font-family: 'Barlow', sans-serif;
-  font-size: calc(18px + 4vmin); 
-  color:Black; 
-}
-
-.socialLine{
-  font-family: 'Barlow', sans-serif;
-  font-size: calc(10px + 2vmin);  
-}
-
-.dragonStoryLine{
-  font-size: calc(15px + 2vmin);    
+.text-inherit:hover{
+  text-decoration: none;
+  color:black;
 }
